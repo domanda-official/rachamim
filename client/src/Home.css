@@ -1,0 +1,19 @@
+body {
+    /*background-color: ghostwhite;*/
+    /*color: black;*/
+    padding: 20px;
+    /*margin: 10px;*/
+    /*font-family: Arial, serif;*/
+}
+
+.title {
+    font-family: "Roboto", serif; font-size: x-large; color: black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 30px;
+    background-color: #fff;
+    color: #444;
+}

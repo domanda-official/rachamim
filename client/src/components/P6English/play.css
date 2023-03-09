@@ -1,0 +1,172 @@
+.questions {
+    background-color: white;
+    width: 70%;
+    margin: 1rem auto 0 auto;
+  }
+  
+  .questions h2 {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  
+  .questions h5 {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .questions h6 {
+    font-size: 1rem;
+    color: #0F9D58;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .questions .lifeline-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .questions .lifeline {
+    position: relative;
+    top: -3px;
+  }
+  
+  .questions .lifeline-icon {
+    color: #0F9D58;
+    cursor: pointer;
+  }
+  
+  .questions .lifeline-icon:hover {
+    background: none;
+    color: #0b6e3e;
+  }
+  
+  .questions .options-container {
+    display: inline-block;
+    width: 50%;
+  }
+  
+  .questions .option {
+    background-color: #4285F4;
+    border-radius: 30pax;
+    color: white;
+    cursor: pointer;
+    margin: 2rem auto;
+    padding: 1rem;
+    -webkit-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .questions .option:hover {
+    background-color: #0b51c5;
+  }
+  
+  .questions .button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin: 0 auto 2rem auto;
+    cursor: 2rem;
+    width: 90%;
+  }
+  
+  .questions .button-container button {
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    margin-right: 2rem;
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .questions .button-container button:first-child {
+    background-color: #0F9D58;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.2s linear all;
+    transition: 0.2s linear all;
+  }
+  
+  .questions .button-container button:first-child:hover {
+    background-color: #0b6e3e;
+  }
+  
+  .questions .button-container button:nth-child(2) {
+    background-color: #DB4437;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.2s linear all;
+    transition: 0.2s linear all;
+  }
+  
+  .questions .button-container button:nth-child(2):hover {
+    background-color: #bd2e22;
+  }
+  
+  .questions .image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .questions * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .questions .valid {
+    color: #0F9D58;
+  }
+  
+  .questions .warning {
+    color: #F4B400 !important;
+  }
+  
+  .questions .invalid {
+    color: #DB4437 !important;
+  }
+  
+  .questions .toast-invalid {
+    background-color: #DB4437 !important;
+    border-radius: 10px !important;
+    color: white !important;
+  }
+  
+  .questions .toast-valid {
+    background-color: #0F9D58  !important;
+    border-radius: 10px !important;
+    color: white !important;
+  }
+  
+  .questions .toast-heart {
+    background-color: #4285F4 !important;
+    border-radius: 5px !important;
+    color: white !important;
+  }
+  
+  .questions .toast-lightning {
+    background-color: #F4B400 !important;
+    border-radius: 5px !important;
+    color: white !important;
+  }
+  
+  .questions .disable {
+    background-color: lightgrey !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    opacity: 0.9 !important;
+    pointer-events: none;
+
+}

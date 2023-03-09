@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c2d909d.css",
+    "main.js": "/static/js/main.f18c538a.js",
+    "static/media/materialdesignicons-webfont.eot": "/static/media/materialdesignicons-webfont.a09e19a26c69d41759b6.eot",
+    "static/media/materialdesignicons-webfont.ttf?v=7.1.96": "/static/media/materialdesignicons-webfont.74f12de10e15e784fb55.ttf",
+    "static/media/materialdesignicons-webfont.woff?v=7.1.96": "/static/media/materialdesignicons-webfont.a20ebdc2830d7db8d98f.woff",
+    "static/media/materialdesignicons-webfont.woff2?v=7.1.96": "/static/media/materialdesignicons-webfont.3e1e7fadbeeea08d11e5.woff2",
+    "static/media/correct-answer.mp3": "/static/media/correct-answer.e1cf8406691899855c2d.mp3",
+    "static/media/EnglishImg.jpg": "/static/media/EnglishImg.05d6d13398203d54f9eb.jpg",
+    "static/media/wrong-answer.mp3": "/static/media/wrong-answer.e08b616b298a5da45785.mp3",
+    "index.html": "/index.html",
+    "main.5c2d909d.css.map": "/static/css/main.5c2d909d.css.map",
+    "main.f18c538a.js.map": "/static/js/main.f18c538a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c2d909d.css",
+    "static/js/main.f18c538a.js"
+  ]
+}
